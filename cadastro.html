@@ -81,6 +81,16 @@
                         <label class="input-label" for="estado">Estado</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
+                    <div class="input-container">
+                        <input name="telefone" id="telefone" class="input" type="tel" placeholder="Telefone" data-tipo="telefone" pattern="^(\d{2})?(\(?\d{2}\)?\s?)?(\d{4,5}-\d{4}|\d{8,11})$">
+                        <label class="input-label" for="telefone">Telefone</label>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                    </div>
+                    <div class="input-container">
+                        <input name="instagram" id="instagram" class="input" type="text" placeholder="@seuinstagram" data-tipo="instagram" pattern="^@[a-zA-Z0-9._]{1,30}$">
+                        <label class="input-label" for="instagram">Instagram</label>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                    </div>
                 </fieldset>
                 <button class="botao">Cadastrar</button>
             </form>

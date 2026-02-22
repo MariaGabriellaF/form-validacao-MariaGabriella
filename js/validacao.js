@@ -54,6 +54,17 @@ const mensagensDeErro = {
     },
     estado: {
         valueMissing: 'O campo de estado não pode estar vazio.'
+    },
+    telefone: {
+        valueMissing: 'O campo de telefone não pode estar vazio.',
+        patternMismatch: 'O formato do telefone deve ser (83)99131-3434 ou 83991313434.'
+    },
+    instagram: {
+        valueMissing: 'O campo de instagram não pode estar vazio',
+        patternMismatch: 'O formato deve ser @nomedousuario.'
+    },
+    quantidadeEstoque: {
+        valueMissing: 'O campo de quantidade não pode estar vazio.'
     }
 }
 
